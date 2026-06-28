@@ -1,0 +1,14 @@
+Source: mdviewer
+Section: text
+Priority: optional
+Maintainer: mdviewer developers <dev@mdviewer.local>
+Build-Depends: debhelper-compat (= 13), python3, python3-pip, unzip
+Standards-Version: 4.6.2
+
+Package: mdviewer
+Architecture: all
+Depends: python3 (>= 3.10), ${misc:Depends}
+Description: Markdown viewer that renders files in your browser
+ mdviewer converts Markdown files to styled HTML pages with
+ syntax highlighting and opens them in your default browser.
+ It bundles all Python dependencies – no pip install required.

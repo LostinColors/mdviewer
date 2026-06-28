@@ -1,0 +1,22 @@
+[project]
+name = "mdviewer"
+version = "1.0.0"
+description = "A markdown viewer that renders files in your browser with syntax highlighting"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "mdviewer" }
+]
+dependencies = [
+    "mistune>=3.0",
+    "pygments>=2.15",
+]
+keywords = ["markdown", "viewer", "browser", "preview"]
+
+[project.scripts]
+mdviewer = "mdviewer.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"

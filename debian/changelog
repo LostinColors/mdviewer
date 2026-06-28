@@ -1,0 +1,8 @@
+mdviewer (1.0.0-1) stable; urgency=medium
+
+  * Initial release.
+  * Renders Markdown files in the default browser.
+  * Bundles mistune, pygments – no external dependencies.
+  * GitHub-style CSS theme with syntax highlighting.
+
+ -- mdviewer developers <dev@mdviewer.local>  Sat, 27 Jun 2026 00:00:00 +0000
